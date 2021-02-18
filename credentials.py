@@ -35,10 +35,27 @@ class Credential:
         self.account = account
         self.password = password
     
-    def save_credentials(self):
+    def save_credential(self):
         '''
         save_credentials method saves credentials objects into credentials_list
         '''
 
-        Credentials.credentails_list.append(self)
+        Credential.credentials_list.append(self)
 
+    def delete_credentials(self):
+
+        '''
+        delete_credential method deletes a saved credentials from the list
+        '''
+
+        Credential.credentials_list.remove(self)
+    
+    @classmethod
+    def find_by_account(cls,account):
+        '''
+        Method that takes in a user account and returns a account password that matches that account.
+        '''
+
+        for credential in cls.credentials_list:
+            if credential.account == account:
+                return credential
