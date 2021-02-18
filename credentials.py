@@ -1,3 +1,4 @@
+import pyperclip
 
 class User:
     """
@@ -70,10 +71,15 @@ class Credential:
                     return True
 
         return False
-        
+
     @classmethod
     def display_credentials(cls):
         '''
         method that returns the credentials list
         '''
         return cls.credentials_list
+    
+    @classmethod
+    def copy_password(cls,account):
+        credential_found = Credential.find_by_account(account)
+        pyperclip.copy(credential_found.password)
