@@ -7,7 +7,8 @@ class User:
     pass
 
     def __init__(self,user_name,password):
-        '''
-        __init__ method that helps us define properties for our objects.
-        '''
-  
+         '''
+         __init__ method that helps us define properties for our objects.
+         '''
+         self.user_name = user_name
+         self.password = password
