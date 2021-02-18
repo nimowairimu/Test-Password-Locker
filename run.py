@@ -82,5 +82,40 @@ def main():
     print ('\n')
 
     while True:
-        print("Use these short codes : cc - create a new credential dc -display credential ,fc- find a credential ,ex - ")
+        print("Use these short codes :ca - create account ,log - to log in ,cc - create a new credential, dc -display credential ,fc- find a credential ,ex - exit the credentials list")
+        
+        short_code = input().lower()
+
+        if short_code == "ca"
+        print("Create account")
+        print("-"*20)
+        user_name = input('Enter a username: ').strip()
+        password = input ('Enter a password:   ').strip()
+        save_user(create_user(user_name,password))
+        print('\n')
+        print{f'A new account has been successfuly created under username :{user_name} with passwors set as: {password}'}
+        print{'PLease go ahead and log in '}
+
+        elif short_code == "log"
+        print{'Enter your details to log in '}
+        user_name = input('Enter your user_name :  ')
+        password = input ('Enter your password:    ')
+
+
+        elif short_code == "cc"
+        print("New credential")
+        print("-"* 10)
+
+        print("User_name .....")
+        User_name = input()
+
+        print("Account ....")
+        account = input()
+
+        print("Password .....")
+        password = input()
+
+        save_credential()
+
+
 
