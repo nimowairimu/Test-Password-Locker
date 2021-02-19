@@ -29,14 +29,14 @@ class Credential:
     '''
     credentials_list = []
     @classmethod
-    def verify_user(cls,username, password):
+    def verify_user(cls,user_name, password):
         """
         method to verify whether the user is in our user_list or not
         """
         a_user = ""
         for user in User.users_list:
             if(user.user_name == user_name and user.password == password):
-                    a_user == user.username
+                    a_user == user.user_name
         return a_user
 
     def __init__(self,user_name,account,password):
@@ -84,7 +84,7 @@ class Credential:
         return False
 
     @classmethod
-    def display_credentials(cls):
+    def display_credentials(cls,user_name):
         '''
         method that returns the credentials list
         '''
