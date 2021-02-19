@@ -28,6 +28,17 @@ class Credential:
     Class that generates new instance of user credentials 
     '''
     credentials_list = []
+    @classmethod
+    def verify_user(cls,username, password):
+        """
+        method to verify whether the user is in our user_list or not
+        """
+        a_user = ""
+        for user in User.users_list:
+            if(user.user_name == user_name and user.password == password):
+                    a_user == user.username
+        return a_user
+
     def __init__(self,user_name,account,password):
         '''
         __init__ method that helps us define properties for our user credentials 

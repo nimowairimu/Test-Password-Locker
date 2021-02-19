@@ -8,6 +8,22 @@ class TestUser(unittest.TestCase):
     '''
     Test class that defines test cases for the user class behaviours.
     '''
+    def test_check_user(self):
+		'''
+		Function to test whether the login in function check_user works as expected
+		'''
+		self.new_user = User('nims','52522')
+		self.new_user.save_user()
+		New_user = User('lucy','45456')
+		New_user.save_user()
+
+		for user in User.users_list:
+			if user.user_name == New_user.user_name and user.password == New_user.password:
+				other_user = user.user_name
+		return other_user
+
+		self.assertEqual(other_user,Credential.check_user(New_user.password,New_user.user_name))
+
     def setUp(self):
         '''
         Set up method to run before each test cases.
