@@ -3,22 +3,12 @@
 ### Author
 Irene Wairimu Mungai
 
-## To clone project to your local computer and run it follow the following instructions.
 
 ## SetUp Dependencies
 > Install these first:
 * Python3.8
 * pip
 * pyperclip
-
-
- 
-
- >1. ` git clone git remote add origin https://github.com/nimowairimu/Test-Password-Locker.git`
->2. ``cd Test_Pass`
->3. To run the app type    `` python3.8 .py ` or `./run.py`
-
-
 
 
 ## Technologies used
@@ -44,6 +34,10 @@ del-Delete Credentials ,dc - Display Credentials, fc - Find Credential copy  ex 
         
         $ git clone https://github.com/nimowairimu/Test-Password-Locker.git``
         $ cd Test_Pass
+>1. ` git clone git remote add origin https://github.com/nimowairimu/Test-Password-Locker.git`
+>2. ``cd Test_Pass`
+>3. To run the app enter  the following commands in terminal `` python3.8 .py ` or `./run.py`
+
 
 ## Running the Application
 * To run the application, in your terminal:
@@ -52,9 +46,7 @@ del-Delete Credentials ,dc - Display Credentials, fc - Find Credential copy  ex 
         $ ./run.py
         
 
-
-
 ## License
-> MIT License 2021 Irene Wairimu Mungai
+> MIT License 2021 Wairimu Mungai
 
 
