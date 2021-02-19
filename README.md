@@ -51,8 +51,10 @@ del-Delete Credentials ,dc - Display Credentials, fc - Find Credential copy  ex 
 ## Running the Application
 * To run the application, in your terminal:
 
-        $ chmod +x run.py
-        $ ./run.py
+    $ chmod +x run.py
+    $ ./run.py
+
+
         
 
 ## License
