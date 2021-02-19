@@ -10,6 +10,15 @@ Irene Wairimu Mungai
 * pip
 * pyperclip
 
+## User stories
+The user would like to.... :
+
+1. To create an account for the application or log into the application.
+1. Store my existing acounts login details for various accounts that i have registered for.
+1. Generate new password for an account that i haven't registered for and store it with the account name.
+1. Delete stored account login details that i do now want anymore.
+1. Copy my credentials to the clipboard
+
 
 ## Technologies used
 * Python3.8
