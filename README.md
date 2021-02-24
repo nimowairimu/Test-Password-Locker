@@ -21,7 +21,7 @@ The user would like to.... :
 
 
 ## Technologies used
-* Python3.8
+* Python2.7
 
 
 | Behaviour | Input | Output |
@@ -45,7 +45,7 @@ del-Delete Credentials ,dc - Display Credentials, fc - Find Credential copy  ex 
         $ cd Test_Pass
 >1. ` git clone git remote add origin https://github.com/nimowairimu/Test-Password-Locker.git`
 >2. ``cd Test_Pass`
->3. To run the app enter  the following commands in terminal `` python3.8 .py ` or `./run.py`
+>3. To run the app enter  the following commands in terminal `` python2.7 .py ` or `./run.py`
 
 
 ## Running the Application
